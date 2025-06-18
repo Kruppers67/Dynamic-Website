@@ -29,7 +29,7 @@ body {
 .title {
     position: absolute;
     z-index: 1;
-    left: 530px;
+    left: 440px;
     top: 10px;
     font-family: "Edu NSW ACT Hand Pre", cursive;;
     font-weight: 100;
@@ -63,16 +63,35 @@ body {
     font-weight: 800;
     font-size: larger;
     z-index: 1;
+    
 
 }
+.navbtn:hover {
+    background-color: rgba(21, 27, 22, 0.034);
+}
 .dropbox {
-    width: 19vw;
-    height: 21vh;
-    background-color: rgba(165, 42, 42, 0.007);
+    opacity: 0;
+    transition: opacity 0.5s ease, max-height 0.5s ease;
+    max-height: 0;
+    display: grid;
+    overflow: hidden;
+    pointer-events: none;
+}
+.dropbox.show {
+    pointer-events: auto;
+    opacity: 1;
+    width: 20vw;
+    max-height: 27vh;
+    background-color: rgba(44, 42, 165, 0.267);
+    justify-content: center;
+    margin-top: 20px;
+    justify-self: center;
+    border-radius: 0 0 10px 10px;
+
 }
 .dropbtns {
     height: 7vh;
-    width: 19vw;
+    width: 20vw;
     background-color: rgba(21, 27, 22, 0.311);
     color: white;
     border-radius: 10px;
@@ -83,8 +102,7 @@ body {
     font-weight: 800;
     font-size: larger;
     z-index: 1;
-    top: 30px;
-    margin-top: 10px;
+    margin-top: 8px;
 }
 .boximg {
     height: 94.5%;

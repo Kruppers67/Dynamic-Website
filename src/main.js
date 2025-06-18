@@ -4,7 +4,7 @@ import './style.css';
 import { mainbox, navbar, navBtns, bodybox } from "./navbar";
 
 const pagetitle = document.createElement('h1');
-pagetitle.textContent = 'Paint Store';
+pagetitle.textContent = 'Painters Anonymous';
 pagetitle.classList.add('title');
 mainbox.appendChild(pagetitle);
 

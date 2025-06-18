@@ -35,7 +35,6 @@ navBtns.forEach((tab, index) => {
 /**Dropdown button logic. Buttons will appear on mouseenter.*/
     const dropbox = document.createElement('div');
     dropbox.classList.add('dropbox');
-    dropbox.style.display = 'none';
 
     for(let i = 1; i <= 3; i++) {
         const dropbtn = document.createElement('button');
@@ -50,13 +49,16 @@ navBtns.forEach((tab, index) => {
 /**Event listeners for buttons */
 
     btn.addEventListener('mouseenter', () => {
-    dropbox.style.display = 'block';
+    btn.style.borderRadius = '10px 10px 0 0';
+    dropbox.classList.add('show');
+
     });
 
     btn.addEventListener('mouseleave', () => {
-    dropbox.style.display = 'none';
+    dropbox.classList.remove('show');
+    btn.style.borderRadius = '10px';
     });
     dropbox.addEventListener('mouseleave', () => {
-    dropbox.style.display = 'none';
+    dropbox.classList.remove('show');
     });
 });
