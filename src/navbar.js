@@ -1,8 +1,10 @@
 
+/**Imports */
 import './style.css';
-
-export { mainbox, navbar, navBtns, };
 import { boximg } from './assets';
+
+/**Exports */
+export { mainbox, navbar, navBtns, };
 
 /**I know comments are meant to be short and sweet for
  * change logs as well as any updates, but to aid in my own
@@ -26,7 +28,35 @@ navBtns.forEach((tab, index) => {
     btn.classList.add('navbtn');
     navbar.appendChild(btn);
     btn.id = `btn-${index}`;
-});
 
 
 /**End of button/navbar logic */
+
+/**Dropdown button logic. Buttons will appear on mouseenter.*/
+    const dropbox = document.createElement('div');
+    dropbox.classList.add('dropbox');
+    dropbox.style.display = 'none';
+
+    for(let i = 1; i <= 3; i++) {
+        const dropbtn = document.createElement('button');
+        dropbtn.textContent = `${tab} Option ${i}`;
+        dropbtn.classList.add('dropbtns');
+        dropbox.appendChild(dropbtn);
+    };
+
+    btn.appendChild(dropbox);
+
+
+/**Event listeners for buttons */
+
+    btn.addEventListener('mouseenter', () => {
+    dropbox.style.display = 'block';
+    });
+
+    btn.addEventListener('mouseleave', () => {
+    dropbox.style.display = 'none';
+    });
+    dropbox.addEventListener('mouseleave', () => {
+    dropbox.style.display = 'none';
+    });
+});

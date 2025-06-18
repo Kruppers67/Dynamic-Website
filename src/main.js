@@ -1,3 +1,5 @@
+/**Imports */
+
 import './style.css';
 import { mainbox, navbar, navBtns, bodybox } from "./navbar";
 

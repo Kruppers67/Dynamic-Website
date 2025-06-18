@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n    background-color: rgba(190, 190, 190, 0.74);\n    width: 100vw;\n    height: 100vh;\n    display: grid;\n    grid-template-columns: 1fr;\n    grid-template-rows: 1fr 1fr;\n}\n#mainbox {\n    margin-left: 70px;\n    background-color: rgb(128, 138, 118);\n    width: 85vw;\n    height: 90vh;\n    border-radius: 10px 10px 0 0;\n    grid-row: 1;\n    grid-column: 1;\n}\n.navbar {\n    margin-top: 100px;\n    height: 50px;\n    width: 100%;\n    border-radius: 5px;\n    z-index: 1;\n    backdrop-filter: blur(10px);\n    -webkit-backdrop-filter: blur(5px);\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    grid-template-rows: 1fr;\n}\n.navbtn {\n    height: 7vh;\n    width: 20vw;\n    background-color: rgba(21, 27, 22, 0.311);\n    color: white;\n    border-radius: 10px;\n    box-shadow: rgb(136, 29, 29) 1px 2px 4px 1px;\n\n}\n.boximg {\n    height: 95%;\n    width: 86%;\n    position: absolute;\n    z-index: 0;\n    border-radius: 10px 10px 0 0;\n    border: red 1px solid;\n}\n#footer {\n    width: 85%;\n    height: 100px;\n    background-color: rgb(9, 12, 12);\n    grid-row: 2;\n    grid-column: 1;\n    margin-left: 70px;\n    margin-top: 20px;\n    border-top: rgb(138, 5, 5) 5px solid;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dynamic-website/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./src/assets/palm-tree-leaf-shadow-on-pink-background.jpg */ \"./src/assets/palm-tree-leaf-shadow-on-pink-background.jpg\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap);\"]);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n    background-image: url(${___CSS_LOADER_URL_REPLACEMENT_0___});\n    background-size: cover;\n    width: 100vw;\n    height: 100vh;\n    display: grid;\n    grid-template-columns: 1fr;\n    grid-template-rows: 1fr 1fr;\n}\n#mainbox {\n    margin-left: 90px;\n    background-color: rgb(128, 138, 118);\n    width: 85vw;\n    height: 90vh;\n    border-radius: 10px 10px 0 0;\n    grid-row: 1;\n    grid-column: 1;\n}\n.contentbox {\n    position: absolute;\n    height: 460px;\n    width: 80%;\n    background-color: rgba(100, 4, 4, 0.37);\n    z-index: 1;\n    left: 140px;\n    top: 225px;\n}\n.title {\n    position: absolute;\n    z-index: 1;\n    left: 530px;\n    top: 10px;\n    font-family: \"Edu NSW ACT Hand Pre\", cursive;;\n    font-weight: 100;\n    text-decoration: underline;\n    border-bottom: black solid 6px;\n    padding-left: 100px;\n    padding-right: 100px;\n    \n}\n.navbar {\n    margin-top: 150px;\n    height: 50px;\n    width: 99%;\n    border-radius: 5px;\n    z-index: 1;\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    grid-template-rows: 1fr;\n    margin-left: 12px;\n}\n.navbtn {\n    height: 7vh;\n    width: 20vw;\n    background-color: rgba(21, 27, 22, 0.311);\n    color: white;\n    border-radius: 10px;\n    box-shadow: rgb(136, 29, 29) 1px 2px 4px 1px;\n    backdrop-filter: blur(10px);\n    -webkit-backdrop-filter: blur(5px);\n    font-family: \"Edu NSW ACT Hand Pre\", cursive;\n    font-weight: 800;\n    font-size: larger;\n\n}\n.boximg {\n    height: 94.5%;\n    width: 85.7%;\n    position: absolute;\n    z-index: 0;\n    border-radius: 10px 10px 0 0;\n    border: rgb(7, 5, 5) 2px solid;\n}\n#footer {\n    width: 84.8%;\n    height: 60px;\n    background-color: rgb(9, 12, 12);\n    grid-row: 2;\n    grid-column: 1;\n    margin-left: 90px;\n    margin-top: 20px;\n    border-top: rgb(138, 5, 5) 5px solid;\n}\n`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://dynamic-website/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://dynamic-website/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://dynamic-website/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -106,7 +116,27 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   boximg: () => (/* binding */ boximg)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_pngtree_abstract_blurred_gradient_background_in_bright_rainbow_colors_colorful_rainbow_gradient_image_15684346_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/pngtree-abstract-blurred-gradient-background-in-bright-rainbow-colors-colorful-rainbow-gradient-image_15684346.jpg */ \"./src/assets/pngtree-abstract-blurred-gradient-background-in-bright-rainbow-colors-colorful-rainbow-gradient-image_15684346.jpg\");\n/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./navbar */ \"./src/navbar.js\");\n\n\n\n\nvar boximg = document.createElement('img');\nboximg.src = _assets_pngtree_abstract_blurred_gradient_background_in_bright_rainbow_colors_colorful_rainbow_gradient_image_15684346_jpg__WEBPACK_IMPORTED_MODULE_1__;\nboximg.alt = 'Black and white background image.';\nboximg.classList.add('boximg');\n\n//# sourceURL=webpack://dynamic-website/./src/assets.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   boximg: () => (/* binding */ boximg)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets_pngtree_abstract_blurred_gradient_background_in_bright_rainbow_colors_colorful_rainbow_gradient_image_15684346_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/pngtree-abstract-blurred-gradient-background-in-bright-rainbow-colors-colorful-rainbow-gradient-image_15684346.jpg */ \"./src/assets/pngtree-abstract-blurred-gradient-background-in-bright-rainbow-colors-colorful-rainbow-gradient-image_15684346.jpg\");\n/* harmony import */ var _assets_blur_abstract_warm_evening_sky_design_background_wallpaper_website_banner_free_photo_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/blur-abstract-warm-evening-sky-design-background-wallpaper-website-banner-free-photo.jpg */ \"./src/assets/blur-abstract-warm-evening-sky-design-background-wallpaper-website-banner-free-photo.jpg\");\n/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./navbar */ \"./src/navbar.js\");\n\n\n\n\n\nvar boximg = document.createElement('img');\nboximg.src = _assets_pngtree_abstract_blurred_gradient_background_in_bright_rainbow_colors_colorful_rainbow_gradient_image_15684346_jpg__WEBPACK_IMPORTED_MODULE_1__;\nboximg.alt = 'Black and white background image.';\nboximg.classList.add('boximg');\n\n//# sourceURL=webpack://dynamic-website/./src/assets.js?");
+
+/***/ }),
+
+/***/ "./src/assets/blur-abstract-warm-evening-sky-design-background-wallpaper-website-banner-free-photo.jpg":
+/*!*************************************************************************************************************!*\
+  !*** ./src/assets/blur-abstract-warm-evening-sky-design-background-wallpaper-website-banner-free-photo.jpg ***!
+  \*************************************************************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"f605457d72588d85ad6e.jpg\";\n\n//# sourceURL=webpack://dynamic-website/./src/assets/blur-abstract-warm-evening-sky-design-background-wallpaper-website-banner-free-photo.jpg?");
+
+/***/ }),
+
+/***/ "./src/assets/palm-tree-leaf-shadow-on-pink-background.jpg":
+/*!*****************************************************************!*\
+  !*** ./src/assets/palm-tree-leaf-shadow-on-pink-background.jpg ***!
+  \*****************************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a583bd360addac8c1d7b.jpg\";\n\n//# sourceURL=webpack://dynamic-website/./src/assets/palm-tree-leaf-shadow-on-pink-background.jpg?");
 
 /***/ }),
 
@@ -126,7 +156,7 @@ eval("module.exports = __webpack_require__.p + \"4b2d791ae6c8077fa97a.jpg\";\n\n
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./navbar */ \"./src/navbar.js\");\n\n\n\n//# sourceURL=webpack://dynamic-website/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _navbar__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./navbar */ \"./src/navbar.js\");\n\n\nvar pagetitle = document.createElement('h1');\npagetitle.textContent = 'Paint Store';\npagetitle.classList.add('title');\n_navbar__WEBPACK_IMPORTED_MODULE_1__.mainbox.appendChild(pagetitle);\nvar contentbox = document.createElement('div');\ncontentbox.classList.add('contentbox');\n_navbar__WEBPACK_IMPORTED_MODULE_1__.mainbox.appendChild(contentbox);\n\n//# sourceURL=webpack://dynamic-website/./src/main.js?");
 
 /***/ }),
 
@@ -136,7 +166,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   mainbox: () => (/* binding */ mainbox),\n/* harmony export */   navBtns: () => (/* binding */ navBtns),\n/* harmony export */   navbar: () => (/* binding */ navbar)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets */ \"./src/assets.js\");\n\n\n\n\n/**I know comments are meant to be short and sweet for\n * change logs as well as any updates, but to aid in my own\n * learning,  the first few projects will have comments.\n */\n\n/** DOM logic for creating dynamic buttons and the navbar.*/\nvar mainbox = document.getElementById('mainbox');\nmainbox.appendChild(_assets__WEBPACK_IMPORTED_MODULE_1__.boximg);\nvar navbar = document.createElement('div');\nnavbar.classList.add('navbar');\nmainbox.appendChild(navbar);\nvar navBtns = ['Home', 'Store', 'About', 'Contact'];\nnavBtns.forEach(function (tab, index) {\n  var btn = document.createElement('button');\n  btn.textContent = tab;\n  btn.classList.add('navbtn');\n  navbar.appendChild(btn);\n  btn.id = \"btn-\".concat(index);\n});\n\n/**End of button/navbar logic */\n\n//# sourceURL=webpack://dynamic-website/./src/navbar.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   mainbox: () => (/* binding */ mainbox),\n/* harmony export */   navBtns: () => (/* binding */ navBtns),\n/* harmony export */   navbar: () => (/* binding */ navbar)\n/* harmony export */ });\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var _assets__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets */ \"./src/assets.js\");\n\n\n\n\n/**I know comments are meant to be short and sweet for\n * change logs as well as any updates, but to aid in my own\n * learning,  the first few projects will have comments.\n */\n\n/** DOM logic for creating dynamic buttons and the navbar.*/\n\nvar mainbox = document.getElementById('mainbox');\nmainbox.appendChild(_assets__WEBPACK_IMPORTED_MODULE_1__.boximg);\nvar navbar = document.createElement('div');\nnavbar.classList.add('navbar');\nmainbox.appendChild(navbar);\nvar navBtns = ['Home', 'Store', 'About', 'Contact'];\nnavBtns.forEach(function (tab, index) {\n  var btn = document.createElement('button');\n  btn.textContent = tab;\n  btn.classList.add('navbtn');\n  navbar.appendChild(btn);\n  btn.id = \"btn-\".concat(index);\n});\n\n/**End of button/navbar logic */\n\n//# sourceURL=webpack://dynamic-website/./src/navbar.js?");
 
 /***/ }),
 
@@ -175,6 +205,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -250,6 +283,32 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/^blob:/, "").replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
