@@ -1,15 +1,8 @@
 /**Imports */
 
 import './style.css';
-import { mainbox, navbar, navBtns, bodybox } from "./navbar";
+import { mainbox } from "./header";
+import { contentbox } from './pages';
 
-const pagetitle = document.createElement('h1');
-pagetitle.textContent = 'Painters Anonymous';
-pagetitle.classList.add('title');
-mainbox.appendChild(pagetitle);
-
-const contentbox = document.createElement('div');
-contentbox.classList.add('contentbox');
-mainbox.appendChild(contentbox);
 
 

@@ -1,5 +1,9 @@
+/*FONTS*/
+
 @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap');
 
+
+/*Main container boxes*/
 body {
     background-image: url(/home/lylathedev/Repos/Dynamic-Website/src/assets/palm-tree-leaf-shadow-on-pink-background.jpg);
     background-size: cover;
@@ -26,19 +30,6 @@ body {
     left: 140px;
     top: 225px;
 }
-.title {
-    position: absolute;
-    z-index: 1;
-    left: 440px;
-    top: 10px;
-    font-family: "Edu NSW ACT Hand Pre", cursive;;
-    font-weight: 100;
-    text-decoration: underline;
-    border-bottom: black solid 6px;
-    padding-left: 100px;
-    padding-right: 100px;
-    
-}
 .navbar {
     margin-top: 150px;
     height: 50px;
@@ -49,25 +40,6 @@ body {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
     margin-left: 12px;
-}
-.navbtn {
-    height: 7vh;
-    width: 20vw;
-    background-color: rgba(21, 27, 22, 0.311);
-    color: white;
-    border-radius: 10px;
-    box-shadow: rgb(136, 29, 29) 1px 2px 4px 1px;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(5px);
-    font-family: "Edu NSW ACT Hand Pre", cursive;
-    font-weight: 800;
-    font-size: larger;
-    z-index: 1;
-    
-
-}
-.navbtn:hover {
-    background-color: rgba(21, 27, 22, 0.034);
 }
 .dropbox {
     opacity: 0;
@@ -89,6 +61,54 @@ body {
     border-radius: 0 0 10px 10px;
 
 }
+/*Main content box end.*/
+
+
+/*ELEMENT CLASSES*/
+
+/*header*/
+.title {
+    position: absolute;
+    z-index: 1;
+    left: 440px;
+    top: 10px;
+    font-family: "Edu NSW ACT Hand Pre", cursive;;
+    font-weight: 800;
+    text-decoration: underline;
+    border-bottom: black solid 6px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.profile {
+    height: 70px;
+    width: 70px;
+    background-color: aquamarine;
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    border-radius: 50px;
+}
+/*header end*/
+
+/*navbar*/
+.navbtn {
+    height: 7vh;
+    width: 20vw;
+    background-color: rgba(21, 27, 22, 0.311);
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgb(136, 29, 29) 1px 2px 4px 1px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(5px);
+    font-family: "Edu NSW ACT Hand Pre", cursive;
+    font-weight: 800;
+    font-size: larger;
+    z-index: 1;
+}
+.navbtn:hover {
+    background-color: rgba(21, 27, 22, 0.034);
+}
 .dropbtns {
     height: 7vh;
     width: 20vw;
@@ -104,6 +124,20 @@ body {
     z-index: 1;
     margin-top: 8px;
 }
+.dropbtns:hover {
+  background-color: rgba(102, 121, 105, 0.311);
+}
+/*navbar end*/
+
+
+/*Main page content.*/
+.home {
+  margin-top: 30px;
+  width: 300px;
+  height: 400px;
+  background-color: green;
+}
+/*images*/
 .boximg {
     height: 94.5%;
     width: 85.7%;
@@ -112,6 +146,9 @@ body {
     border-radius: 10px 10px 0 0;
     border: rgb(7, 5, 5) 2px solid;
 }
+/*image end*/
+
+/*footer*/
 #footer {
     width: 84.8%;
     height: 60px;
@@ -122,3 +159,56 @@ body {
     margin-top: 20px;
     border-top: rgb(138, 5, 5) 5px solid;
 }
+/*footer end*/
+
+/* Phone screen dynamics(work in progress)...*/
+@media screen and (max-width: 768px) {
+    .navbar {
+  grid-template-columns: 1fr; /* stack vertically */
+  height: auto;
+  margin-left: 0;
+}
+
+.navbtn {
+  width: 90vw;
+  height: 50px;
+  font-size: 1rem;
+}
+.dropbox,
+.dropbtns {
+  width: 90vw;
+  font-size: 1rem;
+}
+#mainbox {
+  margin-left: 0;
+  width: 100vw;
+  height: auto;
+  border-radius: 0;
+}
+
+.boximg {
+  width: 100%;
+  height: auto;
+}
+.title {
+  left: 0;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.contentbox {
+  width: 90vw;
+  left: 5vw;
+  top: auto;
+  position: relative;
+  height: auto;
+}
+
+#footer {
+  width: 100vw;
+  margin-left: 0;
+}
+}
+/*End of dynamic screen styling...*/
