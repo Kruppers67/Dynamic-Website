@@ -5,7 +5,7 @@
 
 /*Main container boxes*/
 body {
-    background-image: url(/home/lylathedev/Repos/Dynamic-Website/src/assets/palm-tree-leaf-shadow-on-pink-background.jpg);
+    background-image: url(./assets/palm-tree-leaf-shadow-on-pink-background.jpg);
     background-size: cover;
     width: 100vw;
     height: 100vh;

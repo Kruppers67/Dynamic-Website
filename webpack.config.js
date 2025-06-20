@@ -1,3 +1,4 @@
+// webpack.config.js
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
@@ -7,10 +8,16 @@ const __dirname = dirname(__filename);
 
 export default {
   mode: 'development',
-  entry: './src/main.js',
+  entry: {
+    home: './src/home.js',
+    about: './src/about.js',
+    contact: './src/contact.js',
+    store: './src/store.js',
+  },
   output: {
-    filename: 'index.js',
+    filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
+    clean: true, // optional but recommended
   },
   devServer: {
     static: './dist',
@@ -40,4 +47,5 @@ export default {
       },
     ],
   },
+  plugins: [],
 };
