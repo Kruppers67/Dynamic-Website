@@ -6,7 +6,7 @@
 /*Main container boxes*/
 body {
     background-image: url(./assets/palm-tree-leaf-shadow-on-pink-background.jpg);
-    background-size: cover;
+    background-size: contain;
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -14,9 +14,9 @@ body {
     grid-template-rows: 1fr 1fr;
 }
 #mainbox {
-    margin-left: 90px;
+  margin-left: 90px;
     background-color: rgb(128, 138, 118);
-    width: 85vw;
+    width: 83vw;
     height: 90vh;
     border-radius: 10px 10px 0 0;
     grid-row: 1;
@@ -39,7 +39,7 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
-    margin-left: 12px;
+    margin-left: 24px;
 }
 .dropbox {
     opacity: 0;
@@ -72,7 +72,7 @@ body {
     z-index: 1;
     left: 440px;
     top: 10px;
-    font-family: "Edu NSW ACT Hand Pre", cursive;;
+    font-family: "Edu NSW ACT Hand Pre", cursive;
     font-weight: 800;
     text-decoration: underline;
     border-bottom: black solid 6px;
@@ -139,7 +139,7 @@ body {
 }
 /*images*/
 .boximg {
-    height: 94.5%;
+    height: 95.5%;
     width: 85.7%;
     position: absolute;
     z-index: 0;
@@ -150,14 +150,15 @@ body {
 
 /*footer*/
 #footer {
-    width: 84.8%;
-    height: 60px;
-    background-color: rgb(63, 211, 211);
+    padding: 15px;
+    width: 82.8%;
+    height: 70px;
+    background-color: rgb(8, 10, 10);
     grid-row: 2;
     grid-column: 1;
     margin-left: 90px;
-    margin-top: 20px;
-    border-top: rgb(138, 5, 5) 5px solid;
+    margin-top: 40px;
+    border-top: rgb(5, 1, 1) 5px solid;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -166,37 +167,37 @@ body {
 .email {
   grid-column: 1;
   grid-row: 1;
-  margin-top: 0;
+  margin-top: 1px;
   height: 10px;
   width: 300px;
-  color: darkblue;
+  color: rgb(14, 164, 223);
 }
 .phonenum {
   grid-column: 1;
   grid-row: 2;
-  margin-top: 0;
+  margin-top: 1px;
   height: 10px;
   width: 300px;
-  color: darkblue;
+  color: rgb(14, 164, 223);
 }
 .gitlabel {
   display: grid;
   justify-items: end;
   grid-row: 1;
   grid-column: 7;
-  margin-top: 1px;
+  margin-top: 2px;
   height: 10px;
   width: 300px;
-  color: darkblue;
+  color: rgb(14, 164, 223);
 }
 .gitlink {
   grid-column: 8;
   grid-row: 1;
-  margin-top: 0;
+  margin-top: 2px;
   margin-left: 30px;
   height: 10px;
   width: 300px;
-  color: darkblue;
+  color: rgb(14, 164, 223);
 }
 .linklabel {
   display: grid;
@@ -207,7 +208,7 @@ body {
   margin-left: 3px;
   height: 10px;
   width: 300px;
-  color: darkblue;
+  color: rgb(14, 164, 223);
 }
 .linkedlink {
   grid-row: 2;
@@ -216,9 +217,299 @@ body {
   margin-left: 30px;
   height: 10px;
   width: 300px;
-  color: darkblue;
+  color: rgb(14, 164, 223);
 }
 /*footer end*/
+
+
+/**Homepage Content*/
+.homebox {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(248, 250, 250);
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
+
+}
+.htitle {
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100px;
+  width: 100%;
+  border-bottom: black solid 2px;
+  grid-column: 1/-1;
+  display: grid;
+  justify-self: center;
+  justify-items: center;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  background: linear-gradient(to top right, purple, cyan);
+}
+.himage {
+  position: relative;
+  margin: 0;
+  background-image: url(./assets/riccardo-farinazzo-lGIOSX7t1Mo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  border: rgb(52, 109, 214) solid 5px;
+  height: 320px;
+  width: 500px;
+  display: grid;
+  justify-self: center;
+  grid-column: 1;
+  grid-row: 2;
+}
+.hlorem {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgb(250, 248, 248);
+  border: rgb(52, 109, 214) solid 5px;
+  height: 320px;
+  border-radius: 5px;
+  width: 500px;
+}
+.loremtitle {
+  height: 50px;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  font-size: xx-large;
+}
+.lorem {
+  height: 80%;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-weight: 300;
+}
+/*Homepage Content End*/
+
+/**Storepage Content*/
+.storebox {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(248, 250, 250);
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
+
+}
+.stitle {
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100px;
+  width: 100%;
+  border-bottom: black solid 2px;
+  grid-column: 1/-1;
+  display: grid;
+  justify-self: center;
+  justify-items: center;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  background: linear-gradient(to top right, purple, cyan);
+}
+.simage {
+  position: relative;
+  margin: 0;
+  background-image: url(./assets/riccardo-farinazzo-lGIOSX7t1Mo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  border: rgb(52, 109, 214) solid 5px;
+  height: 320px;
+  width: 500px;
+  display: grid;
+  justify-self: center;
+  grid-column: 1;
+  grid-row: 2;
+}
+.storelorem {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgb(250, 248, 248);
+  border: rgb(52, 109, 214) solid 5px;
+  height: 320px;
+  border-radius: 5px;
+  width: 500px;
+}
+.sloremtitle {
+  height: 50px;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  font-size: xx-large;
+}
+.slorem {
+  height: 80%;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-weight: 300;
+}
+/*Storepage Content End*/
+
+/*About content*/
+
+.aboutbox {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(248, 250, 250);
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
+
+}
+.atitle {
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100px;
+  width: 100%;
+  border-bottom: black solid 2px;
+  grid-column: 1/-1;
+  display: grid;
+  justify-self: center;
+  justify-items: center;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  background: linear-gradient(to top right, purple, cyan);
+}
+.aimage {
+  position: relative;
+  margin: 0;
+  background-image: url(./assets/riccardo-farinazzo-lGIOSX7t1Mo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  border: rgb(52, 109, 214) solid 5px;
+  height: 320px;
+  width: 500px;
+  display: grid;
+  justify-self: center;
+  grid-column: 1;
+  grid-row: 2;
+}
+.aboutlorem {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgb(250, 248, 248);
+  border: rgb(52, 109, 214) solid 5px;
+  height: 320px;
+  border-radius: 5px;
+  width: 500px;
+}
+.aloremtitle {
+  height: 50px;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  font-size: xx-large;
+}
+.alorem {
+  height: 80%;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-weight: 300;
+}
+/*End of about content*/
+
+/**Contactpage Content*/
+.contactbox {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(248, 250, 250);
+  margin: 0;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
+
+}
+.ctitle {
+  margin: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100px;
+  width: 100%;
+  border-bottom: black solid 2px;
+  grid-column: 1/-1;
+  display: grid;
+  justify-self: center;
+  justify-items: center;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  background: linear-gradient(to top right, purple, cyan);
+}
+.cimage {
+  position: relative;
+  margin: 0;
+  background-image: url(./assets/riccardo-farinazzo-lGIOSX7t1Mo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  border: rgb(52, 109, 214) solid 5px;
+  height: 320px;
+  width: 500px;
+  display: grid;
+  justify-self: center;
+  grid-column: 1;
+  grid-row: 2;
+}
+.contactlorem {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 3fr;
+  grid-column: 2;
+  grid-row: 2;
+  background-color: rgb(250, 248, 248);
+  border: rgb(52, 109, 214) solid 5px;
+  height: 320px;
+  border-radius: 5px;
+  width: 500px;
+}
+.cloremtitle {
+  height: 50px;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  font-size: xx-large;
+}
+.clorem {
+  height: 80%;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Edu NSW ACT Hand Pre", cursive;
+  font-weight: 300;
+}
+/*Contactpage Content End*/
 
 /* Phone screen dynamics(work in progress)...*/
 @media screen and (max-width: 768px) {

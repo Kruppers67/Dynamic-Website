@@ -121,6 +121,20 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.id = `btn-${index}`; /**To give unique ID's to btns: btn-0='Home', btn-1, etc. */
     navbar.appendChild(btn);
 
+    const routeMap = {
+    Home: '/home',
+    Store: '/store',
+    About: '/about',
+    Contact: '/contact'
+    };
+
+    btn.addEventListener('click', () => {
+      const route = routeMap[tab];
+      if (route) {
+        window.location.href = route; // ⬅️ Redirects to EJS route
+      }
+    });
+
     const dropbox = document.createElement('div'); /**For the dropdowns */
     dropbox.classList.add('dropbox');
 
